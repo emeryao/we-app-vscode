@@ -1,0 +1,6 @@
+{
+    "weapp": {
+        "prefix": "weapp",
+        "body": "\"pages\":[]"
+    }
+}
