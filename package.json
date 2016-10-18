@@ -26,10 +26,6 @@
 				"path": "./snippets/wxml.json"
 			},
 			{
-				"language": "json",
-				"path": "./snippets/json.json"
-			},
-			{
 				"language": "typescript",
 				"path": "./snippets/typescript.json"
 			}
