@@ -37,6 +37,7 @@ VS code extension for WeApp development using [TypeScript](http://www.typescript
   ```
 
 * wxml/html
+
   |snippets|output|
   |--------|--------|
   |`wa-block`|`<block></block>`|
