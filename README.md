@@ -38,36 +38,36 @@ VS code extension for WeApp development using [TypeScript](http://www.typescript
 
 * wxml/html
 
-  |snippets|output|
-  |--------|--------|
-  |`wa-block`|`<block></block>`|
-  |`wa-view`|`<view></view>`|
-  |`wa-scroll-view`|`<scroll-view></scroll-view>`|
-  |`wa-swiper`|`<swiper></swiper>`|
-  |`wa-swiper-item`|`<swiper-item></swiper-item>`|
-  |`wa-icon`|`<icon></icon>`|
-  |`wa-text`|`<text></text>`|
-  |`wa-progress`|`<progress></progress>`|
-  |`wa-button`|`<button></button>`|
-  |`wa-checkbox-group`|`<checkbox-group></checkbox-group>`|
-  |`wa-checkbox`|`<checkbox></checkbox>`|
-  |`wa-form`|`<form></form>`|
-  |`wa-input`|`<input></input>`|
-  |`wa-label`|`<label></label>`|
-  |`wa-picker`|`<picker></picker>`|
-  |`wa-radio-group`|`<radio-group></radio-group>`|
-  |`wa-radio`|`<radio></radio>`|
-  |`wa-slider`|`<slider></slider>`|
-  |`wa-switch`|`<switch></switch>`|
-  |`wa-action-sheet`|`<action-sheet></action-sheet>`|
-  |`wa-action-sheet-item`|`<action-sheet-item></action-sheet-item>`|
-  |`wa-action-sheet-cancel`|`<action-sheet-cancel></action-sheet-cancel>`|
-  |`wa-modal`|`<modal></modal>`|
-  |`wa-toast`|`<toast></toast>`|
-  |`wa-loading`|`<loading></loading>`|
-  |`wa-navigator`|`<navigator></navigator>`|
-  |`wa-audio`|`<audio></audio>`|
-  |`wa-image`|`<image></image>`|
-  |`wa-video`|`<video></video>`|
-  |`wa-map`|`<map></map>`|
-  |`wa-canvas`|`<canvas></canvas>`|
+|snippets|output|
+|--------|--------|
+|`wa-block`|`<block></block>`|
+|`wa-view`|`<view></view>`|
+|`wa-scroll-view`|`<scroll-view></scroll-view>`|
+|`wa-swiper`|`<swiper></swiper>`|
+|`wa-swiper-item`|`<swiper-item></swiper-item>`|
+|`wa-icon`|`<icon></icon>`|
+|`wa-text`|`<text></text>`|
+|`wa-progress`|`<progress></progress>`|
+|`wa-button`|`<button></button>`|
+|`wa-checkbox-group`|`<checkbox-group></checkbox-group>`|
+|`wa-checkbox`|`<checkbox></checkbox>`|
+|`wa-form`|`<form></form>`|
+|`wa-input`|`<input></input>`|
+|`wa-label`|`<label></label>`|
+|`wa-picker`|`<picker></picker>`|
+|`wa-radio-group`|`<radio-group></radio-group>`|
+|`wa-radio`|`<radio></radio>`|
+|`wa-slider`|`<slider></slider>`|
+|`wa-switch`|`<switch></switch>`|
+|`wa-action-sheet`|`<action-sheet></action-sheet>`|
+|`wa-action-sheet-item`|`<action-sheet-item></action-sheet-item>`|
+|`wa-action-sheet-cancel`|`<action-sheet-cancel></action-sheet-cancel>`|
+|`wa-modal`|`<modal></modal>`|
+|`wa-toast`|`<toast></toast>`|
+|`wa-loading`|`<loading></loading>`|
+|`wa-navigator`|`<navigator></navigator>`|
+|`wa-audio`|`<audio></audio>`|
+|`wa-image`|`<image></image>`|
+|`wa-video`|`<video></video>`|
+|`wa-map`|`<map></map>`|
+|`wa-canvas`|`<canvas></canvas>`|
