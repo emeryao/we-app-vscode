@@ -7,7 +7,7 @@ VS code extension for WeApp development using [TypeScript](http://www.typescript
 > base on the official WeApp [documents](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
 
 * [TypeScript](http://www.typescriptlang.org/)
-  * `wa-page`
+  * **`wa-page`** :
   ```typescript
     let self;
     let param: PageParam = {
@@ -20,7 +20,7 @@ VS code extension for WeApp development using [TypeScript](http://www.typescript
     };
     Page(param);
   ```
-  * `wa-app`
+  * **`wa-app`** :
   ```typescript
     let param: AppParam = {
         onLaunch: function () {
