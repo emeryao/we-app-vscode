@@ -1,6 +1,8 @@
 # we-app-vscode
 VS code extension for WeApp development using [TypeScript](http://www.typescriptlang.org/)  
-微信小程序插件
+微信小程序插件 for TypeScript
+
+> BTW: you can get the declaration file for WeApp API [here](https://github.com/Emeryao/typed-we-app)
 
 ## Snippets
 > prefix **`wa-`** stands for WeApp  
@@ -71,3 +73,6 @@ VS code extension for WeApp development using [TypeScript](http://www.typescript
 |`wa-video`|`<video></video>`|
 |`wa-map`|`<map></map>`|
 |`wa-canvas`|`<canvas></canvas>`|
+
+## Last Update
+2016.10.19
