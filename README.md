@@ -1,6 +1,6 @@
 # we-app-vscode
 VS code extension for WeApp development using [TypeScript](http://www.typescriptlang.org/)  
-微信小程序插件 for TypeScript
+微信小程序插件 for TypeScript and wxml
 
 > BTW: you can get the declaration file for WeApp API [here](https://github.com/Emeryao/typed-we-app)
 

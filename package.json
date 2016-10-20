@@ -16,20 +16,19 @@
 		"Snippets"
 	],
 	"contributes": {
-		"snippets": [
-			{
-				"language": "html",
-				"path": "./snippets/wxml.json"
-			},
-			{
-				"language": "wxml",
-				"path": "./snippets/wxml.json"
-			},
-			{
-				"language": "typescript",
-				"path": "./snippets/typescript.json"
-			}
-		]
+		"snippets": [{
+			"language": "html",
+			"path": "./snippets/wxml.json"
+		}, {
+			"language": "wxml",
+			"path": "./snippets/wxml.json"
+		}, {
+			"language": "typescript",
+			"path": "./snippets/typescript.json"
+		}, {
+			"language": "json",
+			"path": "./snippets/json.json"
+		}]
 	},
 	"repository": {
 		"type": "git",

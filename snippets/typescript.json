@@ -20,12 +20,12 @@
     "WeApp page": {
         "prefix": "wa-page",
         "body": [
-            "let self;",
+            "let ${0:pageName};",
             "",
             "let param: PageParam = {",
-            "\tdata: {$0},",
+            "\tdata: {$1},",
             "\tonLoad: function () {",
-            "\t\tself = this;",
+            "\t\t${0:pageName} = this;",
             "\t}",
             "};",
             "",

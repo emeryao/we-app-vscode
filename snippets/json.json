@@ -1,0 +1,28 @@
+{
+    "page": {
+        "prefix": "wa-page",
+        "body": [
+            "{",
+            "\t\"navigationBarBackgroundColor\": \"#000000\",",
+            "\t\"navigationBarTextStyle\": \"white\",",
+            "\t\"navigationBarTitleText\": \"\",",
+            "\t\"backgroundColor\": \"#ffffff\",",
+            "\t\"backgroundTextStyle\": \"dark|light\",",
+            "\t\"enablePullDownRefresh\": false",
+            "}"
+        ]
+    },
+    "app-window": {
+        "prefix": "wa-app-window",
+        "body": [
+            "{",
+            "\t\"navigationBarBackgroundColor\": \"#000000\",",
+            "\t\"navigationBarTextStyle\": \"white\",",
+            "\t\"navigationBarTitleText\": \"\",",
+            "\t\"backgroundColor\": \"#ffffff\",",
+            "\t\"backgroundTextStyle\": \"dark|light\",",
+            "\t\"enablePullDownRefresh\": false",
+            "}"
+        ]
+    }
+}
