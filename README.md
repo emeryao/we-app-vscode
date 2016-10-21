@@ -1,6 +1,6 @@
 # we-app-vscode
 VS code extension for WeApp development using [TypeScript](http://www.typescriptlang.org/)  
-微信小程序插件 for [TypeScript](#TypeScript) / [wxml](#wxml) / [config json](#JSON)
+微信小程序插件 for [TypeScript](#typescript) / [wxml](#wxml) / [config json](#json)
 
 > BTW: you can get the declaration file for WeApp API [here](https://github.com/Emeryao/typed-we-app)
 
@@ -8,9 +8,9 @@ VS code extension for WeApp development using [TypeScript](http://www.typescript
 > prefix **`wa-`** stands for WeApp  
 > base on the official WeApp [documents](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
 
-* [TypeScript](http://www.typescriptlang.org/)
-  * **`wa-page`** :
-  ```typescript
+### [TypeScript](http://www.typescriptlang.org/)
+* **`wa-page`** :
+```typescript
     let self;
     let param: PageParam = {
         data: {
@@ -21,9 +21,9 @@ VS code extension for WeApp development using [TypeScript](http://www.typescript
         }
     };
     Page(param);
-  ```
-  * **`wa-app`** :
-  ```typescript
+```
+* **`wa-app`** :
+```typescript
     let param: AppParam = {
         onLaunch: function () {
 
@@ -36,9 +36,9 @@ VS code extension for WeApp development using [TypeScript](http://www.typescript
         }
     };
     App(param);
-  ```
+```
 
-* wxml
+### wxml
 
 |snippets|output|
 |--------|--------|
@@ -74,13 +74,19 @@ VS code extension for WeApp development using [TypeScript](http://www.typescript
 |`wa-map`|`<map></map>`|
 |`wa-canvas`|`<canvas></canvas>`|
 
-* JSON
-  * wa-page
-  * wa-app-window
-  * wa-app-page
-  * wa-app-tab
-  * wa-app-network
-  * wa-app-debug
+### JSON  
+
+* wa-page
+* wa-app-window
+* wa-app-page
+* wa-app-tab
+* wa-app-network
+* wa-app-debug
+
+## Where to get
+
+* [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=emeryao.we-app-vscode)
+* [Github](https://github.com/Emeryao/we-app-vscode)
 
 ## Last Update
-2016.10.19
+2016.10.21
