@@ -1,6 +1,6 @@
 # we-app-vscode
 VS code extension for WeApp development using [TypeScript](http://www.typescriptlang.org/)  
-微信小程序插件 for TypeScript and wxml
+微信小程序插件 for [TypeScript](#TypeScript) / [wxml](#wxml) / [config json](#JSON)
 
 > BTW: you can get the declaration file for WeApp API [here](https://github.com/Emeryao/typed-we-app)
 
@@ -38,7 +38,7 @@ VS code extension for WeApp development using [TypeScript](http://www.typescript
     App(param);
   ```
 
-* wxml/html
+* wxml
 
 |snippets|output|
 |--------|--------|
@@ -73,6 +73,14 @@ VS code extension for WeApp development using [TypeScript](http://www.typescript
 |`wa-video`|`<video></video>`|
 |`wa-map`|`<map></map>`|
 |`wa-canvas`|`<canvas></canvas>`|
+
+* JSON
+  * wa-page
+  * wa-app-window
+  * wa-app-page
+  * wa-app-tab
+  * wa-app-network
+  * wa-app-debug
 
 ## Last Update
 2016.10.19
