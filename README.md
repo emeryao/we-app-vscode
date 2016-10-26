@@ -1,27 +1,32 @@
-# we-app-vscode
-VS code extension for WeApp development using [TypeScript](http://www.typescriptlang.org/)  
+# WeApp Extension for VS Code
+VS code extension for WeApp development  
 微信小程序插件 for [TypeScript](#typescript) / [wxml](#wxml) / [config json](#json)
 
-> BTW: you can get the declaration file for WeApp API [here](https://github.com/Emeryao/typed-we-app)
+> BTW: you can get the TypeScript declaration file for WeApp API [here](https://github.com/Emeryao/typed-we-app/blob/master/typings/we-app.d.ts)
+
+## Contact Me
+Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [issue](https://github.com/Emeryao/we-app-vscode/issues)
 
 ## Snippets
 > prefix **`wa-`** stands for WeApp  
-> base on the official WeApp [documents](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
+> based on the official WeApp [documents](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
 
-### [TypeScript](http://www.typescriptlang.org/)
+### TypeScript
 * **`wa-page`** :
 ```typescript
-    let self;
+    let mainPage;
     let param: PageParam = {
         data: {
             message: 'hello world'
         },
         onLoad: function () {
-            self = this;
+            mainPage = this;
         }
     };
     Page(param);
 ```
+ ![wa-page](images/wa-page.gif)
+
 * **`wa-app`** :
 ```typescript
     let param: AppParam = {
@@ -37,6 +42,7 @@ VS code extension for WeApp development using [TypeScript](http://www.typescript
     };
     App(param);
 ```
+ ![wa-app](images/wa-app.gif)
 
 ### wxml
 
@@ -85,8 +91,8 @@ VS code extension for WeApp development using [TypeScript](http://www.typescript
 
 ## Where to get
 
-* [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=emeryao.we-app-vscode)
-* [Github](https://github.com/Emeryao/we-app-vscode)
+* Extension@[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=emeryao.we-app-vscode)
+* Source@[Github](https://github.com/Emeryao/we-app-vscode)
 
 ## Last Update
-2016.10.21
+2016.10.26
