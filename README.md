@@ -11,7 +11,7 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 > prefix **`wa-`** stands for WeApp  
 > based on the official WeApp [documents](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
 
-### TypeScript
+### [TypeScript](http://www.typescriptlang.org/)
 * **`wa-page`** :
 ```typescript
     let mainPage;
