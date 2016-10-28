@@ -55,6 +55,7 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 |`wa-swiper-item`|`<swiper-item></swiper-item>`|
 |`wa-icon`|`<icon></icon>`|
 |`wa-text`|`<text></text>`|
+|`wa-textarea`|`<textarea></textarea>`|
 |`wa-progress`|`<progress></progress>`|
 |`wa-button`|`<button></button>`|
 |`wa-checkbox-group`|`<checkbox-group></checkbox-group>`|
@@ -95,4 +96,4 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 * Source@[Github](https://github.com/Emeryao/we-app-vscode)
 
 ## Last Update
-2016.10.26
+2016.10.28

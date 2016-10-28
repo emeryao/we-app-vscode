@@ -34,6 +34,11 @@
         "body": "<text>$0</text>",
         "description": "文本 支持转义符\"\\\" 除了文本节点以外的其他节点都无法长按选中"
     },
+    "textarea": {
+        "prefix": "wa-textarea",
+        "body": "<textarea>$0</textarea>",
+        "description": "多行输入框"
+    },
     "progress": {
         "prefix": "wa-progress",
         "body": "<progress percent=\"$0\" show-info=\"${1:false}\" stroke-width=\"${2:6}\" color=\"${3:#09BB07}\" active=\"${4:false}\">$5</progress>",
