@@ -2,7 +2,7 @@
     "name": "we-app-vscode",
     "displayName": "WeApp Snippets",
     "description": "Snippets for WeApp development",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "publisher": "emeryao",
     "icon": "images/icon.png",
     "engines": {
