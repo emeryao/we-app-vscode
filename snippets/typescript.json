@@ -22,14 +22,12 @@
         "body": [
             "let ${0:pageName};",
             "",
-            "let param: PageParam = {",
+            "Page({",
             "\tdata: {$1},",
             "\tonLoad: function () {",
             "\t\t${0:pageName} = this;",
             "\t}",
-            "};",
-            "",
-            "Page(param);"
+            "});"
         ]
     }
 }
