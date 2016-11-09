@@ -2,14 +2,17 @@
 VS code extension for WeApp development  
 微信小程序插件 for [TypeScript](#typescript) / [wxml](#wxml) / [config json](#json)
 
-> BTW: you can get the TypeScript declaration file for WeApp API [here](https://github.com/Emeryao/typed-we-app/blob/master/typings/we-app.d.ts)
+BTW: you can get the TypeScript declaration file for WeApp API using [`typings`](https://github.com/typings/typings) 
+```batch
+typings install global~we-app -SG
+```
 
 ## Contact Me
 Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [issue](https://github.com/Emeryao/we-app-vscode/issues)
 
 ## Snippets
 > prefix **`wa-`** stands for WeApp  
-> based on the official WeApp [documents](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
+> based on the official WeApp [documentation](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
 
 ### [TypeScript](http://www.typescriptlang.org/)
 * **`wa-page`** :
@@ -68,12 +71,6 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 |`wa-radio`|`<radio></radio>`|
 |`wa-slider`|`<slider></slider>`|
 |`wa-switch`|`<switch></switch>`|
-|`wa-action-sheet`|`<action-sheet></action-sheet>`|
-|`wa-action-sheet-item`|`<action-sheet-item></action-sheet-item>`|
-|`wa-action-sheet-cancel`|`<action-sheet-cancel></action-sheet-cancel>`|
-|`wa-modal`|`<modal></modal>`|
-|`wa-toast`|`<toast></toast>`|
-|`wa-loading`|`<loading></loading>`|
 |`wa-navigator`|`<navigator></navigator>`|
 |`wa-audio`|`<audio></audio>`|
 |`wa-image`|`<image></image>`|
@@ -96,4 +93,4 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 * Source@[Github](https://github.com/Emeryao/we-app-vscode)
 
 ## Last Update
-2016.10.28
+2016.11.09

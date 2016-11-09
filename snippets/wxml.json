@@ -99,36 +99,6 @@
         "body": "<switch checked=\"${0:false}\" type=\"${1:switch|checkbox}\" bindchange=\"$2\">$0</switch>",
         "description": "开关选择器"
     },
-    "action-sheet": {
-        "prefix": "wa-action-sheet",
-        "body": "<action-sheet bindchange=\"$0\">$1</action-sheet>",
-        "description": "从屏幕底部出现的菜单表"
-    },
-    "action-sheet-item": {
-        "prefix": "wa-action-sheet-item",
-        "body": "<action-sheet-item>$0</action-sheet-item>",
-        "description": "底部菜单表的子选项"
-    },
-    "action-sheet-cancel": {
-        "prefix": "wa-action-sheet-cancel",
-        "body": "<action-sheet-cancel>$0</action-sheet-cancel>",
-        "description": "底部菜单表的取消按钮 和<action-sheet-item/>的区别是 点击它会触发<action-sheet/>的change事件 并且外观上会同它上面的内容间隔开来"
-    },
-    "modal": {
-        "prefix": "wa-modal",
-        "body": "<modal title=\"$0\" no-cancel=\"${1:false}\" confirm-text=\"${2:确定}\" cancel-text=\"${3:取消}\" bindconfirm=\"$4\" bindcancel=\"$5\">$6</modal>",
-        "description": "模态弹窗"
-    },
-    "toast": {
-        "prefix": "wa-toast",
-        "body": "<toast duration=\"${0:1500}\" bindchange=\"$1\" hidden=\"${2:true}\">$3</toast>",
-        "description": "消息提示框"
-    },
-    "loading": {
-        "prefix": "wa-loading",
-        "body": "<loading bindchange=\"$0\" hidden=\"${1:true}\">$2</loading>",
-        "description": "加载提示"
-    },
     "navigator": {
         "prefix": "wa-navigator",
         "body": "<navigator url=\"$0\" redirect=\"${1:false}\" hover-class=\"${2:navigator-hover}\">$3</navigator>",
