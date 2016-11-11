@@ -1,10 +1,20 @@
 # WeApp Extension for VS Code
-VS code extension for WeApp development  
-微信小程序插件 for [TypeScript](#typescript) / [wxml](#wxml) / [config json](#json)
+> VS code extension for WeApp development  
+> 微信小程序插件 for [TypeScript](#typescript) / [wxml](#wxml) / [config json](#json)
 
-BTW: you can get the TypeScript declaration file for WeApp API using [`typings`](https://github.com/typings/typings) 
+## Welcome
+It's nice to see you here getting this extension, cause you're using or gonna use the *GREAT* **[TypeScript](http://www.typescriptlang.org)** to develop your WeApp  
+You can aslo take advantage of this extension for `wxml` and `json` even if you are using javascript
+
+BTW: you can get the TypeScript declaration file for WeApp API using [`typings`](https://github.com/typings/typings)  
+
 ```batch
-typings install global~we-app -SG
+typings install env~we-app -SG
+```
+Or  
+
+```batch
+typings install github:Emeryao/typed-we-app -SG
 ```
 
 ## Contact Me
@@ -93,4 +103,4 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 * Source@[Github](https://github.com/Emeryao/we-app-vscode)
 
 ## Last Update
-2016.11.09
+2016.11.11
