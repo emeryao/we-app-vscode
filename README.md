@@ -6,7 +6,7 @@
 It's nice to see you here getting this extension, cause you're using or gonna use the *GREAT* **[TypeScript](http://www.typescriptlang.org)** to develop your WeApp  
 You can aslo take advantage of this extension for `wxml` and `json` even if you are using javascript
 
-BTW: you can get the TypeScript declaration file for WeApp API using [`typings`](https://github.com/typings/typings)  
+BTW: It is **strongly recommeded** to get the TypeScript declaration file for WeApp API using [`typings`](https://github.com/typings/typings)  
 
 ```batch
 typings install env~we-app -SG
@@ -27,18 +27,17 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 ### [TypeScript](http://www.typescriptlang.org/)
 * **`wa-page`** :
 ```typescript
-    let mainPage;
-    let param: PageParam = {
+    let mainPage: WeApp.Page;
+    
+    Page({
         data: {
             message: 'hello world'
         },
-        onLoad: function () {
+        onLoad: function (): void {
             mainPage = this;
         }
-    };
-    Page(param);
+    });
 ```
- ![wa-page](images/wa-page.gif)
 
 * **`wa-app`** :
 ```typescript
@@ -55,7 +54,6 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
     };
     App(param);
 ```
- ![wa-app](images/wa-app.gif)
 
 ### wxml
 

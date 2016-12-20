@@ -2,7 +2,7 @@
     "WeApp app": {
         "prefix": "wa-app",
         "body": [
-            "let param: AppParam = {",
+            "let param: WeApp.AppParam = {",
             "\tonLaunch: function () {",
             "\t\t$1",
             "\t},",
@@ -20,11 +20,11 @@
     "WeApp page": {
         "prefix": "wa-page",
         "body": [
-            "let ${0:pageName};",
+            "let ${0:pageName}: WeApp.Page;",
             "",
             "Page({",
             "\tdata: {$1},",
-            "\tonLoad: function () {",
+            "\tonLoad: function (): void {",
             "\t\t${0:pageName} = this;",
             "\t}",
             "});"
