@@ -9,6 +9,7 @@
             "\t\"backgroundColor\": \"#ffffff\",",
             "\t\"backgroundTextStyle\": \"dark|light\",",
             "\t\"enablePullDownRefresh\": false",
+            "\t\"disableScroll\": false",
             "}"
         ]
     },

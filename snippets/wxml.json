@@ -79,6 +79,16 @@
         "body": "<picker mode=\"${0:selector|time|date}\" range=\"${1:[]}\" value=\"$2\" bindchange=\"$3\" start=\"$4\" end=\"$5\" fields=\"${6:day}\">$0</picker>",
         "description": "滚动选择器 现支持三种选择器 通过mode来区分 分别是普通选择器 时间选择器 日期选择器 默认是普通选择器"
     },
+    "picker-view": {
+        "prefix": "wa-picker-view",
+        "body": "<picker-view value=\"$1\" indicator-style=\"$2\" bindchange=\"$3\">$0</picker-view>",
+        "description": "嵌入页面的滚动选择器"
+    },
+    "picker-view-column": {
+        "prefix": "wa-picker-view-column",
+        "body": "<picker-view-column>$0</picker-view-column>",
+        "description": "仅可放置于<picker-view />中 其孩子节点的高度会自动设置成与picker-view的选中框的高度一致"
+    },
     "radio-group": {
         "prefix": "wa-radio-group",
         "body": "<radio-group bindchange=\"$0\">$1</radio-group>",
@@ -101,7 +111,7 @@
     },
     "navigator": {
         "prefix": "wa-navigator",
-        "body": "<navigator url=\"$0\" redirect=\"${1:false}\" hover-class=\"${2:navigator-hover}\">$3</navigator>",
+        "body": "<navigator url=\"$0\" redirect=\"${1:false}\" hover-class=\"${2:navigator-hover}\" open-type=\"${3:navigate|redirect|switchTab}\">$4</navigator>",
         "description": "页面链接"
     },
     "audio": {
@@ -111,7 +121,7 @@
     },
     "image": {
         "prefix": "wa-image",
-        "body": "<image src=\"$0\" mode=\"${1:scaleToFill|aspectFit|aspectFill}\" binderror=\"$2\" bindload=\"$3\">$4</image>",
+        "body": "<image src=\"$0\" mode=\"${1:scaleToFill|aspectFit|aspectFill|widthFix}\" binderror=\"$2\" bindload=\"$3\">$4</image>",
         "description": "图片"
     },
     "video": {
@@ -128,5 +138,10 @@
         "prefix": "wa-canvas",
         "body": "<canvas canvas-id=\"$0\" binderror=\"$1\">$2</canvas>",
         "description": "画布"
+    },
+    "contact-button": {
+        "prefix": "wa-contact-button",
+        "body": "<contact-button size=\"$0\" type=\"${1:default-dark|default-light}\" session-from=\"$3\">$4</contact-button>",
+        "description": "客服会话按钮"
     }
 }

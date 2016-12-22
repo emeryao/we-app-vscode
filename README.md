@@ -9,12 +9,12 @@ You can aslo take advantage of this extension for `wxml` and `json` even if you 
 BTW: It is **strongly recommeded** to get the TypeScript declaration file for WeApp API using [`typings`](https://github.com/typings/typings)  
 
 ```batch
-typings install env~we-app -SG
+typings install github:Emeryao/typed-we-app -SG
 ```
 Or  
 
 ```batch
-typings install github:Emeryao/typed-we-app -SG
+typings install env~we-app -SG
 ```
 
 ## Contact Me
@@ -101,4 +101,5 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 * Source@[Github](https://github.com/Emeryao/we-app-vscode)
 
 ## Last Update
-2016.11.11
+`2016.12.22`  
+WeApp Dev Tool Version: `0.11.122100`
