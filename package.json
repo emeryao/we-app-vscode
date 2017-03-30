@@ -2,7 +2,7 @@
     "name": "we-app-vscode",
     "displayName": "WeApp Snippets",
     "description": "Snippets for WeApp development",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "publisher": "emeryao",
     "icon": "images/icon.png",
     "engines": {
@@ -15,9 +15,9 @@
     "categories": [
         "Snippets"
     ],
+
     "contributes": {
-        "snippets": [
-            {
+        "snippets": [{
                 "language": "html",
                 "path": "./snippets/wxml.json"
             },
@@ -33,7 +33,16 @@
                 "language": "json",
                 "path": "./snippets/json.json"
             }
-        ]
+        ],
+        "languages": [{
+            "id": "wxml",
+            "extensions": [
+                ".wxml"
+            ],
+            "aliases": [
+                "WXML"
+            ]
+        }]
     },
     "repository": {
         "type": "git",

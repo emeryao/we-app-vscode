@@ -101,5 +101,5 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 * Source@[Github](https://github.com/Emeryao/we-app-vscode)
 
 ## Last Update
-`2016.12.22`  
-WeApp Dev Tool Version: `0.11.122100`
+`2017.03.30`  
+WeApp Dev Tool Version: `0.15.152900`
