@@ -1,4 +1,9 @@
-# WeApp Extension for VS Code
+# WeApp Extension for VS Code  
+
+[![Visual Studio Marketplace](http://vsmarketplacebadge.apphb.com/version/emeryao.we-app-vscode.svg?style=flat-square&color=09BB07)](https://marketplace.visualstudio.com/items?itemName=emeryao.we-app-vscode)
+![](http://vsmarketplacebadge.apphb.com/installs/emeryao.we-app-vscode.svg?style=flat-square&color=09BB07)
+[![GitHub stars](https://img.shields.io/github/stars/Emeryao/we-app-vscode.svg?style=flat-square)](https://github.com/Emeryao/we-app-vscode)
+
 > VS code extension for WeApp development  
 > 微信小程序插件 for [TypeScript](#typescript) / [wxml](#wxml) / [config json](#json)
 
@@ -18,6 +23,8 @@ typings install env~we-app -SG
 ```
 
 ## Contact Me
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/Emeryao/we-app-vscode.svg?style=flat-square)](https://twitter.com/luyao1206)
+
 Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [issue](https://github.com/Emeryao/we-app-vscode/issues)
 
 ## Snippets
