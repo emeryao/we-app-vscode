@@ -8,19 +8,21 @@
 > 微信小程序插件 for [TypeScript](#typescript) / [wxml](#wxml) / [config json](#json)
 
 ## Welcome
-It's nice to see you here getting this extension, cause you're using or gonna use the *GREAT* **[TypeScript](http://www.typescriptlang.org)** to develop your WeApp  
+It's nice to see you here getting this extension, cause you're using or gonna use the GREAT **[TypeScript](http://www.typescriptlang.org)** to develop your WeApp  
 You can aslo take advantage of this extension for `wxml` and `json` even if you are using javascript
 
-BTW: It is **strongly recommeded** to get the TypeScript declaration file for WeApp API using [`typings`](https://github.com/typings/typings)  
+BTW: It is **strongly recommeded** to get the TypeScript declaration file for WeApp API:  
+* With [`npm`](https://www.npmjs.com/) installed  
 
-```batch
-typings install github:Emeryao/typed-we-app -SG
-```
-Or  
+    ```batch
+    npm install typed-we-app --save-dev
+    ```
 
-```batch
-typings install env~we-app -SG
-```
+* With [`typings`](https://github.com/typings/typings) installed  
+
+    ```batch
+    typings install github:Emeryao/typed-we-app -SG
+    ```
 
 ## Contact Me
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/Emeryao/we-app-vscode.svg?style=flat-square)](https://twitter.com/luyao1206)
@@ -92,6 +94,9 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 |`wa-video`|`<video></video>`|
 |`wa-map`|`<map></map>`|
 |`wa-canvas`|`<canvas></canvas>`|
+|`wa-movable-area`|`<movable-area></movable-area>`|
+|`wa-movable-view`|`<movable-view></movable-view>`|
+
 
 ### JSON  
 
@@ -108,5 +113,5 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 * Source@[Github](https://github.com/Emeryao/we-app-vscode)
 
 ## Last Update
-`2017.03.30`  
-WeApp Dev Tool Version: `0.15.152900`
+`2017.05.22`  
+WeApp Dev Tool Version: `0.17.171900`

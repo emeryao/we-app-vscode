@@ -14,6 +14,16 @@
         "body": "<scroll-view scroll-x=\"${0:false}\" scroll-y=\"${1:false}\" upper-threshold=\"${2:50}\" lower-threshold=\"${3:50}\" scroll-top=\"$4\" scroll-top=\"$5\" scroll-into-view=\"$6\" bindscrolltoupper=\"$7\" bindscrolltolower=\"$8\" bindscroll=\"$9\">$10</scroll-view>",
         "description": "可滚动视图区域"
     },
+    "movable-area": {
+        "prefix": "wa-movable-area",
+        "body": "<movable-area></movable-area>",
+        "description": "movable-view 的可移动区域"
+    },
+    "movable-view": {
+        "prefix": "wa-movable-view",
+        "body": "<movable-view direction=\"${0:none}\" inertia=\"${1:false}\" out-of-bounds=\"${2:false}\" x=\"$3\" y=\"$4\" damping=\"${5:20}\" friction=\"${6:2}\">$7</movable-view>",
+        "description": "可移动的视图容器 在页面中可以拖拽滑动"
+    },
     "swiper": {
         "prefix": "wa-swiper",
         "body": "<swiper indicator-dots=\"${0:false}\" autoplay=\"${1:false}\" vertical=\"${2:false}\" current=\"${3:0}\" interval=\"${4:5000}\" duration=\"${5:1000}\" bindchange=\"$6\">$7</swiper>",
@@ -46,7 +56,7 @@
     },
     "button": {
         "prefix": "wa-button",
-        "body": "<button size=\"${0:default|mini}\" type=\"${1:default|primary|warn}\" plain=\"${2:false}\" disabled=\"${3:false}\" loading=\"${4:false}\" form-type=\"${5:submit|reset}\" hover-class=\"${6:button-hover}\">$7</button>",
+        "body": "<button size=\"${0:default|mini}\" type=\"${1:default|primary|warn}\" plain=\"${2:false}\" disabled=\"${3:false}\" loading=\"${4:false}\" form-type=\"${5:submit|reset}\" hover-class=\"${6:button-hover}\" open-type=\"${7:contact|share}\">$8</button>",
         "description": "按钮"
     },
     "checkbox-group": {
