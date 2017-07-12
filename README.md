@@ -114,6 +114,7 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 
 * Extension@[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=emeryao.we-app-vscode)
 * Source@[Github](https://github.com/Emeryao/we-app-vscode)
+* Installable [Package](./we-app-vscode-0.8.0.vsix)  
 
 ## Last Update
 `2017.07.12`  
