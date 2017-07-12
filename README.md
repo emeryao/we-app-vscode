@@ -1,7 +1,7 @@
 # WeApp Extension for VS Code  
 
-[![Visual Studio Marketplace](http://vsmarketplacebadge.apphb.com/version/emeryao.we-app-vscode.svg?style=flat-square&color=09BB07)](https://marketplace.visualstudio.com/items?itemName=emeryao.we-app-vscode)
-![](http://vsmarketplacebadge.apphb.com/installs/emeryao.we-app-vscode.svg?style=flat-square&color=09BB07)
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/emeryao.we-app-vscode.svg?style=flat-square&color=09BB07)](https://marketplace.visualstudio.com/items?itemName=emeryao.we-app-vscode)
+![](https://vsmarketplacebadge.apphb.com/installs/emeryao.we-app-vscode.svg?style=flat-square&color=09BB07)
 [![GitHub stars](https://img.shields.io/github/stars/Emeryao/we-app-vscode.svg?style=flat-square)](https://github.com/Emeryao/we-app-vscode)
 
 > VS code extension for WeApp development  
@@ -96,7 +96,10 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 |`wa-canvas`|`<canvas></canvas>`|
 |`wa-movable-area`|`<movable-area></movable-area>`|
 |`wa-movable-view`|`<movable-view></movable-view>`|
-
+|`wa-cover-view`|`<cover-view></cover-view>`|
+|`wa-cover-image`|`<cover-image></cover-image>`|
+|`wa-open-data`|`<open-data></open-data>`|
+|`wa-rich-text`|`<rich-text></rich-text>`|
 
 ### JSON  
 
@@ -113,5 +116,5 @@ Please feel free to contact me via [email](mailto:luyao1206@live.cn) or Github [
 * Source@[Github](https://github.com/Emeryao/we-app-vscode)
 
 ## Last Update
-`2017.05.22`  
-WeApp Dev Tool Version: `0.17.171900`
+`2017.07.12`  
+WeApp Dev Tool Version: `0.19.191100`

@@ -153,5 +153,25 @@
         "prefix": "wa-contact-button",
         "body": "<contact-button size=\"$0\" type=\"${1:default-dark|default-light}\" session-from=\"$3\">$4</contact-button>",
         "description": "客服会话按钮"
+    },
+    "cover-view": {
+        "prefix": "wa-cover-view",
+        "body": "<cover-view>$0</cover-view>",
+        "description": "覆盖在原生组件之上的文本视图"
+    },
+    "cover-image": {
+        "prefix": "wa-cover-image",
+        "body": "<cover-image src=\"$0\">$1</cover-image>",
+        "description": "覆盖在原生组件之上的图片视图"
+    },
+    "open-data": {
+        "prefix": "wa-open-data",
+        "body": "<open-data type=\"${0:groupName}\" open-gid=\"$1\">$2</open-data>",
+        "description": "用于展示微信开放的数据"
+    },
+    "rich-text": {
+        "prefix": "wa-rich-text",
+        "body": "<rich-text nodes=\"{{$1}}\">$2</rich-text>",
+        "description": "富文本"
     }
 }
